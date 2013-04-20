@@ -1,4 +1,8 @@
 Depot::Application.routes.draw do
+  get "say/hello"
+
+  get "say/bye"
+
   resources :products
 
   # The priority is based upon order of creation:
